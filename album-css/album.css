@@ -1,0 +1,24 @@
+body{
+  background-color: black;
+}
+#thumbs img{
+  height: 100px;
+  margin: 10px;
+  border: 5px solid white;
+  opacity: 0.5;
+  transition: 1.5s;
+}
+
+#thumbs img:hover{
+  opacity: 1;
+  transition: 0.5s;
+}
+
+#images img{
+
+  display: none;
+}
+
+#images img:target{
+  display: block;
+}
